@@ -1167,7 +1167,7 @@
       ]
     }
   },
-  "apache": {
+  "Apache": {
     "vulnerabilities": [
       {
         "atOrAbove": "2.4.0",

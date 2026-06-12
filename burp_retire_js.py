@@ -563,12 +563,13 @@ class BurpExtender(IBurpExtender, IScannerCheck, IProxyListener):
         try:
             http_msg = message.getMessageInfo()
             issues = self._run_passive_checks(http_msg)
+            host = str(http_msg.getHttpService().getHost())
             for issue in issues:
-                host = str(http_msg.getHttpService().getHost())
                 key = (host, issue._path, issue._lib_name)
                 if key not in self._reported:
                     self._reported.add(key)
                     self._callbacks.addScanIssue(issue)
+                    break  # one issue per library per path is enough
         except Exception as e:
             self._print("ERROR in proxy listener: {}".format(str(e)))
 
@@ -609,18 +610,11 @@ class BurpExtender(IBurpExtender, IScannerCheck, IProxyListener):
         offset = resp_info.getBodyOffset()
 
         all_headers = [str(h) for h in resp_info.getHeaders()]
-        for h in all_headers:
-            if h.lower().startswith('server:'):
-                self._print("Server header on {}: {}".format(path, h))
-                break
-
         issues = []
 
         # Header-based detection runs on every response
         try:
             header_results = self._scanner.scan_headers(all_headers)
-            if header_results:
-                self._print("Header hit: {} result(s) on {}".format(len(header_results), path))
             issues.extend(self._build_issues(header_results, base_rr, req_info, path))
         except Exception as e:
             self._print("ERROR in header scan for {}: {}".format(path, str(e)))
@@ -667,10 +661,10 @@ class BurpExtender(IBurpExtender, IScannerCheck, IProxyListener):
             resp_str = self._helpers.bytesToString(resp_bytes)
             m = re.search(pattern, resp_str)
             if m:
-                return self._callbacks.applyMarkers(
-                    base_rr, None, [[m.start(), m.end()]]
-                )
-        except Exception:
+                from jarray import array
+                marker = array([m.start(), m.end()], 'i')
+                return self._callbacks.applyMarkers(base_rr, None, [marker])
+        except:
             pass
         return base_rr
 
