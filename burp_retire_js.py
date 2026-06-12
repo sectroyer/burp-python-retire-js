@@ -16,6 +16,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 
 try:
     from urllib2 import urlopen
@@ -32,7 +33,16 @@ REPO_URL = (
 )
 CACHE_DIR = os.path.join(os.path.expanduser("~"), ".retirejs")
 CACHE_FILE = os.path.join(CACHE_DIR, "jsrepository.json")
-BUNDLED_DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jsrepository.json")
+
+# Jython inside Burp does not set __file__; search sys.path for the DB instead.
+try:
+    _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    _SCRIPT_DIR = next(
+        (p for p in sys.path if os.path.exists(os.path.join(p, "jsrepository.json"))),
+        os.getcwd(),
+    )
+BUNDLED_DB = os.path.join(_SCRIPT_DIR, "jsrepository.json")
 
 HTML_EXTENSIONS = ('.html', '.htm', '.aspx', '.asp', '.php', '.jsp', '.jspx')
 
