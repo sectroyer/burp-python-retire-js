@@ -43,6 +43,7 @@ except NameError:
         os.getcwd(),
     )
 BUNDLED_DB = os.path.join(_SCRIPT_DIR, "jsrepository.json")
+CUSTOM_DB  = os.path.join(_SCRIPT_DIR, "custom_repository.json")
 
 HTML_EXTENSIONS = ('.html', '.htm', '.aspx', '.asp', '.php', '.jsp', '.jspx')
 
@@ -159,6 +160,7 @@ class JsLibrary(object):
         self.file_contents = []
         self.hashes = {}
         self.functions = []
+        self.headers = []
 
 
 class JsLibraryResult(object):
@@ -220,6 +222,20 @@ class VulnerabilitiesRepository(object):
                     break
         return results
 
+    def find_by_headers(self, headers):
+        results = []
+        for lib in self.libraries:
+            for pattern in lib.headers:
+                for header in headers:
+                    version = _simple_match(pattern, header)
+                    if version is not None:
+                        self._collect_vulnerable(lib, version, results, pattern, None)
+                        break
+                else:
+                    continue
+                break
+        return results
+
     def _collect_vulnerable(self, lib, version, results, regex_req, regex_resp):
         for vuln in lib.vulnerabilities:
             if not vuln.below:
@@ -239,6 +255,7 @@ class DatabaseLoader(object):
                     pass
 
         # 1. Try downloading the latest database from the remote repository
+        main_repo = None
         try:
             if not os.path.exists(CACHE_DIR):
                 os.makedirs(CACHE_DIR)
@@ -248,29 +265,61 @@ class DatabaseLoader(object):
             with open(CACHE_FILE, 'wb') as f:
                 f.write(data)
             _log("Retire.js database updated from remote.")
-            return self._parse(data)
+            main_repo = self._parse(data)
         except Exception as e:
             _log("Could not download Retire.js database: {}".format(str(e)))
 
         # 2. Fall back to the locally cached copy
-        if os.path.exists(CACHE_FILE):
+        if main_repo is None and os.path.exists(CACHE_FILE):
             _log("Loading cached Retire.js database.")
             try:
                 with open(CACHE_FILE, 'rb') as f:
-                    return self._parse(f.read())
+                    main_repo = self._parse(f.read())
             except Exception as e:
                 _log("Could not read cache: {}".format(str(e)))
 
         # 3. Fall back to the bundled database shipped with the extension
-        if os.path.exists(BUNDLED_DB):
+        if main_repo is None and os.path.exists(BUNDLED_DB):
             _log("Loading bundled Retire.js database.")
             with open(BUNDLED_DB, 'rb') as f:
-                return self._parse(f.read())
+                main_repo = self._parse(f.read())
 
-        raise RuntimeError(
-            "Retire.js: could not load vulnerability database from "
-            "remote, cache, or bundled copy."
-        )
+        if main_repo is None:
+            raise RuntimeError(
+                "Retire.js: could not load vulnerability database from "
+                "remote, cache, or bundled copy."
+            )
+
+        # 4. Load and merge our custom additions database
+        if os.path.exists(CUSTOM_DB):
+            _log("Loading custom database: {}".format(CUSTOM_DB))
+            try:
+                with open(CUSTOM_DB, 'rb') as f:
+                    custom_repo = self._parse(f.read())
+                self._merge(main_repo, custom_repo)
+                _log("Custom database merged ({} libraries total).".format(
+                    len(main_repo.libraries)))
+            except Exception as e:
+                _log("WARNING: Could not load custom database: {}".format(str(e)))
+
+        return main_repo
+
+    def _merge(self, main_repo, custom_repo):
+        """Merge custom_repo into main_repo in-place."""
+        index = {lib.name: lib for lib in main_repo.libraries}
+        for lib in custom_repo.libraries:
+            if lib.name in index:
+                existing = index[lib.name]
+                existing.vulnerabilities.extend(lib.vulnerabilities)
+                existing.uris.extend(lib.uris)
+                existing.filename.extend(lib.filename)
+                existing.file_contents.extend(lib.file_contents)
+                existing.hashes.update(lib.hashes)
+                existing.functions.extend(lib.functions)
+                existing.headers.extend(lib.headers)
+            else:
+                main_repo.libraries.append(lib)
+                index[lib.name] = lib
 
     def _parse(self, data):
         if isinstance(data, bytes):
@@ -281,7 +330,6 @@ class DatabaseLoader(object):
             lib = JsLibrary(name)
             for vuln_json in lib_json.get('vulnerabilities', []):
                 identifiers = vuln_json.get('identifiers', {})
-                # identifiers values may be strings or lists – normalise to lists
                 norm_ids = {}
                 for k, v in identifiers.items():
                     norm_ids[k] = v if isinstance(v, list) else [v]
@@ -293,11 +341,12 @@ class DatabaseLoader(object):
                     severity=vuln_json.get('severity', 'medium'),
                 ))
             extractors = lib_json.get('extractors', {})
-            lib.uris = [_replace_version(p) for p in extractors.get('uri', [])]
-            lib.filename = [_replace_version(p) for p in extractors.get('filename', [])]
+            lib.uris          = [_replace_version(p) for p in extractors.get('uri', [])]
+            lib.filename      = [_replace_version(p) for p in extractors.get('filename', [])]
             lib.file_contents = [_replace_version(p) for p in extractors.get('filecontent', [])]
-            lib.hashes = extractors.get('hashes', {})
-            lib.functions = extractors.get('func', [])
+            lib.hashes        = extractors.get('hashes', {})
+            lib.functions     = extractors.get('func', [])
+            lib.headers       = extractors.get('headers', [])
             repo.libraries.append(lib)
         return repo
 
@@ -334,6 +383,10 @@ class Scanner(object):
         # 4. File content
         content_str = body.decode('utf-8', errors='replace')
         return self._repo.find_by_file_content(content_str)
+
+    def scan_headers(self, headers):
+        """Detect software via HTTP response headers (e.g. Server: nginx/x.y.z)."""
+        return self._repo.find_by_headers(headers)
 
     def scan_html(self, content_bytes, offset=0):
         """Extract <script src="..."> URLs and scan each by path/filename."""
@@ -511,18 +564,27 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         content_type = _get_content_type(resp_info)
         offset = resp_info.getBodyOffset()
 
+        issues = []
+
+        # Header-based detection runs on every response
+        try:
+            header_results = self._scanner.scan_headers(list(resp_info.getHeaders()))
+            issues.extend(self._build_issues(header_results, base_rr, req_info, path))
+        except Exception as e:
+            self._print("ERROR in header scan for {}: {}".format(path, str(e)))
+
+        # Content-based detection for JS and HTML responses
         try:
             if 'javascript' in content_type or path.endswith('.js'):
                 results = self._scanner.scan_script(path, resp_bytes, offset)
+                issues.extend(self._build_issues(results, base_rr, req_info, path))
             elif 'html' in content_type or path.endswith(HTML_EXTENSIONS):
                 results = self._scanner.scan_html(resp_bytes, offset)
-            else:
-                return []
+                issues.extend(self._build_issues(results, base_rr, req_info, path))
         except Exception as e:
             self._print("ERROR scanning {}: {}".format(path, str(e)))
-            return []
 
-        return self._build_issues(results, base_rr, req_info, path)
+        return issues
 
     def doActiveScan(self, base_rr, insertion_point):
         return []
