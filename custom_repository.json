@@ -5,15 +5,29 @@
         "atOrAbove": "4.0.0",
         "below": "4.6.3",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-6531"], "summary": "XSS in Carousel component href attribute" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-6531"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-6531"
+          ],
+          "summary": "XSS in Carousel component href attribute"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-6531"
+        ]
       },
       {
         "atOrAbove": "3.2.0",
         "below": "3.4.2",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-6484"], "summary": "XSS in carousel data-slide and data-slide-to attributes" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-6484"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-6484"
+          ],
+          "summary": "XSS in carousel data-slide and data-slide-to attributes"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-6484"
+        ]
       }
     ]
   },
@@ -23,571 +37,3957 @@
         "atOrAbove": "0.7.22",
         "below": "1.29.1",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2025-53859"], "summary": "Buffer overread in ngx_mail_smtp_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2025-53859"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-53859"
+          ],
+          "summary": "Buffer overread in ngx_mail_smtp_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-53859"
+        ]
       },
       {
         "atOrAbove": "1.11.4",
         "below": "1.26.3",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2025-23419"], "summary": "SSL session reuse vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2025-23419"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-23419"
+          ],
+          "summary": "SSL session reuse vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-23419"
+        ]
       },
       {
         "atOrAbove": "1.27.0",
         "below": "1.27.4",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2025-23419"], "summary": "SSL session reuse vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2025-23419"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-23419"
+          ],
+          "summary": "SSL session reuse vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-23419"
+        ]
       },
       {
         "atOrAbove": "1.5.13",
         "below": "1.26.2",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2024-7347"], "summary": "Buffer overread in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-7347"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-7347"
+          ],
+          "summary": "Buffer overread in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-7347"
+        ]
       },
       {
         "atOrAbove": "1.27.0",
         "below": "1.27.1",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2024-7347"], "summary": "Buffer overread in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-7347"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-7347"
+          ],
+          "summary": "Buffer overread in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-7347"
+        ]
       },
       {
         "atOrAbove": "1.25.0",
         "below": "1.25.6",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-32760"], "summary": "Buffer overwrite in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-32760"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-32760"
+          ],
+          "summary": "Buffer overwrite in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-32760"
+        ]
       },
       {
         "atOrAbove": "1.26.0",
         "below": "1.26.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-32760"], "summary": "Buffer overwrite in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-32760"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-32760"
+          ],
+          "summary": "Buffer overwrite in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-32760"
+        ]
       },
       {
         "atOrAbove": "1.25.0",
         "below": "1.25.6",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-31079"], "summary": "Stack overflow and use-after-free in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-31079"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-31079"
+          ],
+          "summary": "Stack overflow and use-after-free in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-31079"
+        ]
       },
       {
         "atOrAbove": "1.26.0",
         "below": "1.26.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-31079"], "summary": "Stack overflow and use-after-free in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-31079"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-31079"
+          ],
+          "summary": "Stack overflow and use-after-free in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-31079"
+        ]
       },
       {
         "atOrAbove": "1.25.0",
         "below": "1.25.6",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-35200"], "summary": "NULL pointer dereference in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-35200"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-35200"
+          ],
+          "summary": "NULL pointer dereference in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-35200"
+        ]
       },
       {
         "atOrAbove": "1.26.0",
         "below": "1.26.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-35200"], "summary": "NULL pointer dereference in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-35200"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-35200"
+          ],
+          "summary": "NULL pointer dereference in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-35200"
+        ]
       },
       {
         "atOrAbove": "1.25.0",
         "below": "1.25.6",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-34161"], "summary": "Memory disclosure in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-34161"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-34161"
+          ],
+          "summary": "Memory disclosure in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-34161"
+        ]
       },
       {
         "atOrAbove": "1.26.0",
         "below": "1.26.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2024-34161"], "summary": "Memory disclosure in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-34161"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-34161"
+          ],
+          "summary": "Memory disclosure in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-34161"
+        ]
       },
       {
         "atOrAbove": "1.25.3",
         "below": "1.25.4",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2024-24989"], "summary": "NULL pointer dereference in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-24989"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-24989"
+          ],
+          "summary": "NULL pointer dereference in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-24989"
+        ]
       },
       {
         "atOrAbove": "1.25.0",
         "below": "1.25.4",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2024-24990"], "summary": "Use-after-free in HTTP/3" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2024-24990"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-24990"
+          ],
+          "summary": "Use-after-free in HTTP/3"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-24990"
+        ]
       },
       {
         "atOrAbove": "1.1.3",
         "below": "1.23.2",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2022-41741"], "summary": "Memory corruption in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2022-41741"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-41741"
+          ],
+          "summary": "Memory corruption in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-41741"
+        ]
       },
       {
         "atOrAbove": "1.0.7",
         "below": "1.0.16",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2022-41741"], "summary": "Memory corruption in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2022-41741"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-41741"
+          ],
+          "summary": "Memory corruption in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-41741"
+        ]
       },
       {
         "atOrAbove": "1.1.3",
         "below": "1.23.2",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2022-41742"], "summary": "Memory disclosure in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2022-41742"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-41742"
+          ],
+          "summary": "Memory disclosure in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-41742"
+        ]
       },
       {
         "atOrAbove": "1.0.7",
         "below": "1.0.16",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2022-41742"], "summary": "Memory disclosure in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2022-41742"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-41742"
+          ],
+          "summary": "Memory disclosure in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-41742"
+        ]
       },
       {
         "atOrAbove": "0.6.18",
         "below": "1.20.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2021-23017"], "summary": "1-byte memory overwrite in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2021-23017"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-23017"
+          ],
+          "summary": "1-byte memory overwrite in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-23017"
+        ]
       },
       {
         "atOrAbove": "1.9.5",
         "below": "1.16.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2019-9511"], "summary": "Excessive CPU usage in HTTP/2 with small window updates" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2019-9511"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9511"
+          ],
+          "summary": "Excessive CPU usage in HTTP/2 with small window updates"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9511"
+        ]
       },
       {
         "atOrAbove": "1.17.0",
         "below": "1.17.3",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2019-9511"], "summary": "Excessive CPU usage in HTTP/2 with small window updates" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2019-9511"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9511"
+          ],
+          "summary": "Excessive CPU usage in HTTP/2 with small window updates"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9511"
+        ]
       },
       {
         "atOrAbove": "1.9.5",
         "below": "1.16.1",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2019-9513"], "summary": "Excessive CPU usage in HTTP/2 with priority changes" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2019-9513"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9513"
+          ],
+          "summary": "Excessive CPU usage in HTTP/2 with priority changes"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9513"
+        ]
       },
       {
         "atOrAbove": "1.17.0",
         "below": "1.17.3",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2019-9513"], "summary": "Excessive CPU usage in HTTP/2 with priority changes" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2019-9513"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9513"
+          ],
+          "summary": "Excessive CPU usage in HTTP/2 with priority changes"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9513"
+        ]
       },
       {
         "atOrAbove": "1.9.5",
         "below": "1.16.1",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2019-9516"], "summary": "Excessive memory usage in HTTP/2 with zero length headers" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2019-9516"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9516"
+          ],
+          "summary": "Excessive memory usage in HTTP/2 with zero length headers"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9516"
+        ]
       },
       {
         "atOrAbove": "1.17.0",
         "below": "1.17.3",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2019-9516"], "summary": "Excessive memory usage in HTTP/2 with zero length headers" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2019-9516"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9516"
+          ],
+          "summary": "Excessive memory usage in HTTP/2 with zero length headers"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9516"
+        ]
       },
       {
         "atOrAbove": "1.9.5",
         "below": "1.14.1",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2018-16843"], "summary": "Excessive memory usage in HTTP/2" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2018-16843"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-16843"
+          ],
+          "summary": "Excessive memory usage in HTTP/2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-16843"
+        ]
       },
       {
         "atOrAbove": "1.15.0",
         "below": "1.15.6",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2018-16843"], "summary": "Excessive memory usage in HTTP/2" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2018-16843"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-16843"
+          ],
+          "summary": "Excessive memory usage in HTTP/2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-16843"
+        ]
       },
       {
         "atOrAbove": "1.9.5",
         "below": "1.14.1",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2018-16844"], "summary": "Excessive CPU usage in HTTP/2" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2018-16844"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-16844"
+          ],
+          "summary": "Excessive CPU usage in HTTP/2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-16844"
+        ]
       },
       {
         "atOrAbove": "1.15.0",
         "below": "1.15.6",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2018-16844"], "summary": "Excessive CPU usage in HTTP/2" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2018-16844"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-16844"
+          ],
+          "summary": "Excessive CPU usage in HTTP/2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-16844"
+        ]
       },
       {
         "atOrAbove": "1.1.3",
         "below": "1.15.6",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2018-16845"], "summary": "Memory disclosure in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2018-16845"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-16845"
+          ],
+          "summary": "Memory disclosure in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-16845"
+        ]
       },
       {
         "atOrAbove": "1.0.7",
         "below": "1.0.16",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2018-16845"], "summary": "Memory disclosure in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2018-16845"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-16845"
+          ],
+          "summary": "Memory disclosure in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-16845"
+        ]
       },
       {
         "atOrAbove": "0.5.6",
         "below": "1.12.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2017-7529"], "summary": "Integer overflow in the range filter" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2017-7529"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7529"
+          ],
+          "summary": "Integer overflow in the range filter"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7529"
+        ]
       },
       {
         "atOrAbove": "1.13.0",
         "below": "1.13.3",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2017-7529"], "summary": "Integer overflow in the range filter" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2017-7529"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7529"
+          ],
+          "summary": "Integer overflow in the range filter"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7529"
+        ]
       },
       {
         "atOrAbove": "1.3.9",
         "below": "1.10.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-4450"], "summary": "NULL pointer dereference while writing client request body" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-4450"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-4450"
+          ],
+          "summary": "NULL pointer dereference while writing client request body"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-4450"
+        ]
       },
       {
         "atOrAbove": "1.11.0",
         "below": "1.11.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-4450"], "summary": "NULL pointer dereference while writing client request body" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-4450"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-4450"
+          ],
+          "summary": "NULL pointer dereference while writing client request body"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-4450"
+        ]
       },
       {
         "atOrAbove": "0.6.18",
         "below": "1.8.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-0742"], "summary": "Invalid pointer dereference in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-0742"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0742"
+          ],
+          "summary": "Invalid pointer dereference in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0742"
+        ]
       },
       {
         "atOrAbove": "1.9.0",
         "below": "1.9.10",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-0742"], "summary": "Invalid pointer dereference in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-0742"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0742"
+          ],
+          "summary": "Invalid pointer dereference in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0742"
+        ]
       },
       {
         "atOrAbove": "0.6.18",
         "below": "1.8.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-0746"], "summary": "Use-after-free during CNAME response processing in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-0746"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0746"
+          ],
+          "summary": "Use-after-free during CNAME response processing in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0746"
+        ]
       },
       {
         "atOrAbove": "1.9.0",
         "below": "1.9.10",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-0746"], "summary": "Use-after-free during CNAME response processing in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-0746"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0746"
+          ],
+          "summary": "Use-after-free during CNAME response processing in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0746"
+        ]
       },
       {
         "atOrAbove": "0.6.18",
         "below": "1.8.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-0747"], "summary": "Insufficient limits of CNAME resolution in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-0747"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0747"
+          ],
+          "summary": "Insufficient limits of CNAME resolution in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0747"
+        ]
       },
       {
         "atOrAbove": "1.9.0",
         "below": "1.9.10",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2016-0747"], "summary": "Insufficient limits of CNAME resolution in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2016-0747"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0747"
+          ],
+          "summary": "Insufficient limits of CNAME resolution in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0747"
+        ]
       },
       {
         "atOrAbove": "0.5.6",
         "below": "1.6.2",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2014-3616"], "summary": "SSL session reuse vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-3616"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-3616"
+          ],
+          "summary": "SSL session reuse vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-3616"
+        ]
       },
       {
         "atOrAbove": "1.7.0",
         "below": "1.7.5",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2014-3616"], "summary": "SSL session reuse vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-3616"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-3616"
+          ],
+          "summary": "SSL session reuse vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-3616"
+        ]
       },
       {
         "atOrAbove": "1.5.6",
         "below": "1.6.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2014-3556"], "summary": "STARTTLS command injection" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-3556"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-3556"
+          ],
+          "summary": "STARTTLS command injection"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-3556"
+        ]
       },
       {
         "atOrAbove": "1.7.0",
         "below": "1.7.4",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2014-3556"], "summary": "STARTTLS command injection" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-3556"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-3556"
+          ],
+          "summary": "STARTTLS command injection"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-3556"
+        ]
       },
       {
         "atOrAbove": "1.3.15",
         "below": "1.4.7",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2014-0133"], "summary": "SPDY heap buffer overflow" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-0133"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0133"
+          ],
+          "summary": "SPDY heap buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0133"
+        ]
       },
       {
         "atOrAbove": "1.5.0",
         "below": "1.5.12",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2014-0133"], "summary": "SPDY heap buffer overflow" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-0133"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0133"
+          ],
+          "summary": "SPDY heap buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0133"
+        ]
       },
       {
         "atOrAbove": "1.5.10",
         "below": "1.5.11",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2014-0088"], "summary": "SPDY memory corruption" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2014-0088"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0088"
+          ],
+          "summary": "SPDY memory corruption"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0088"
+        ]
       },
       {
         "atOrAbove": "0.8.41",
         "below": "1.4.4",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2013-4547"], "summary": "Request line parsing vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2013-4547"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-4547"
+          ],
+          "summary": "Request line parsing vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-4547"
+        ]
       },
       {
         "atOrAbove": "1.5.0",
         "below": "1.5.7",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2013-4547"], "summary": "Request line parsing vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2013-4547"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-4547"
+          ],
+          "summary": "Request line parsing vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-4547"
+        ]
       },
       {
         "atOrAbove": "1.1.4",
         "below": "1.2.9",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2013-2070"], "summary": "Memory disclosure with specially crafted HTTP backend responses" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2013-2070"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-2070"
+          ],
+          "summary": "Memory disclosure with specially crafted HTTP backend responses"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-2070"
+        ]
       },
       {
         "atOrAbove": "1.3.9",
         "below": "1.4.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2013-2070"], "summary": "Memory disclosure with specially crafted HTTP backend responses" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2013-2070"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-2070"
+          ],
+          "summary": "Memory disclosure with specially crafted HTTP backend responses"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-2070"
+        ]
       },
       {
         "atOrAbove": "1.3.9",
         "below": "1.4.1",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2013-2028"], "summary": "Stack-based buffer overflow with specially crafted request" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2013-2028"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-2028"
+          ],
+          "summary": "Stack-based buffer overflow with specially crafted request"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-2028"
+        ]
       },
       {
         "atOrAbove": "0.7.52",
         "below": "1.2.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2011-4963"], "summary": "Vulnerabilities with Windows directory aliases" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2011-4963"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-4963"
+          ],
+          "summary": "Vulnerabilities with Windows directory aliases"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-4963"
+        ]
       },
       {
         "atOrAbove": "1.3.0",
         "below": "1.3.1",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2011-4963"], "summary": "Vulnerabilities with Windows directory aliases" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2011-4963"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-4963"
+          ],
+          "summary": "Vulnerabilities with Windows directory aliases"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-4963"
+        ]
       },
       {
         "atOrAbove": "1.1.3",
         "below": "1.1.19",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2012-2089"], "summary": "Buffer overflow in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2012-2089"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-2089"
+          ],
+          "summary": "Buffer overflow in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-2089"
+        ]
       },
       {
         "atOrAbove": "1.0.7",
         "below": "1.0.15",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2012-2089"], "summary": "Buffer overflow in ngx_http_mp4_module" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2012-2089"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-2089"
+          ],
+          "summary": "Buffer overflow in ngx_http_mp4_module"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-2089"
+        ]
       },
       {
         "atOrAbove": "0.1.0",
         "below": "1.0.14",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2012-1180"], "summary": "Memory disclosure with specially crafted backend responses" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2012-1180"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-1180"
+          ],
+          "summary": "Memory disclosure with specially crafted backend responses"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-1180"
+        ]
       },
       {
         "atOrAbove": "1.1.0",
         "below": "1.1.17",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2012-1180"], "summary": "Memory disclosure with specially crafted backend responses" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2012-1180"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-1180"
+          ],
+          "summary": "Memory disclosure with specially crafted backend responses"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-1180"
+        ]
       },
       {
         "atOrAbove": "0.6.18",
         "below": "1.0.10",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2011-4315"], "summary": "Buffer overflow in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2011-4315"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-4315"
+          ],
+          "summary": "Buffer overflow in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-4315"
+        ]
       },
       {
         "atOrAbove": "1.1.0",
         "below": "1.1.8",
         "severity": "medium",
-        "identifiers": { "CVE": ["CVE-2011-4315"], "summary": "Buffer overflow in resolver" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2011-4315"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-4315"
+          ],
+          "summary": "Buffer overflow in resolver"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-4315"
+        ]
       },
       {
         "atOrAbove": "0.7.52",
         "below": "0.7.67",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2010-2266"], "summary": "Vulnerabilities with invalid UTF-8 sequence on Windows" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2010-2266"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-2266"
+          ],
+          "summary": "Vulnerabilities with invalid UTF-8 sequence on Windows"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-2266"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.41",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2010-2266"], "summary": "Vulnerabilities with invalid UTF-8 sequence on Windows" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2010-2266"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-2266"
+          ],
+          "summary": "Vulnerabilities with invalid UTF-8 sequence on Windows"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-2266"
+        ]
       },
       {
         "atOrAbove": "0.7.52",
         "below": "0.7.66",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2010-2263"], "summary": "Vulnerabilities with Windows file default stream" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2010-2263"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-2263"
+          ],
+          "summary": "Vulnerabilities with Windows file default stream"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-2263"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.40",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2010-2263"], "summary": "Vulnerabilities with Windows file default stream" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2010-2263"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-2263"
+          ],
+          "summary": "Vulnerabilities with Windows file default stream"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-2263"
+        ]
       },
       {
         "atOrAbove": "0.7.52",
         "below": "0.7.65",
         "severity": "high",
-        "identifiers": { "summary": "CORE-2010-0121 - Vulnerabilities with Windows 8.3 filename pseudonyms" },
-        "info": ["https://www.coresecurity.com/advisories/nginx-source-code-disclosure-0-day"]
+        "identifiers": {
+          "summary": "CORE-2010-0121 - Vulnerabilities with Windows 8.3 filename pseudonyms"
+        },
+        "info": [
+          "https://www.coresecurity.com/advisories/nginx-source-code-disclosure-0-day"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.33",
         "severity": "high",
-        "identifiers": { "summary": "CORE-2010-0121 - Vulnerabilities with Windows 8.3 filename pseudonyms" },
-        "info": ["https://www.coresecurity.com/advisories/nginx-source-code-disclosure-0-day"]
+        "identifiers": {
+          "summary": "CORE-2010-0121 - Vulnerabilities with Windows 8.3 filename pseudonyms"
+        },
+        "info": [
+          "https://www.coresecurity.com/advisories/nginx-source-code-disclosure-0-day"
+        ]
       },
       {
         "below": "999.999.999",
         "severity": "info",
-        "identifiers": { "CVE": ["CVE-2009-4487"], "summary": "Error log data are not sanitized" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-4487"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-4487"
+          ],
+          "summary": "Error log data are not sanitized"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-4487"
+        ]
       },
       {
         "atOrAbove": "0.1.0",
         "below": "0.7.64",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-3555"], "summary": "Renegotiation vulnerability in SSL protocol" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3555"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3555"
+          ],
+          "summary": "Renegotiation vulnerability in SSL protocol"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3555"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.23",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-3555"], "summary": "Renegotiation vulnerability in SSL protocol" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3555"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3555"
+          ],
+          "summary": "Renegotiation vulnerability in SSL protocol"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3555"
+        ]
       },
       {
         "atOrAbove": "0.1.0",
         "below": "0.7.63",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2009-3898"], "summary": "Directory traversal vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3898"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3898"
+          ],
+          "summary": "Directory traversal vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3898"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.17",
         "severity": "low",
-        "identifiers": { "CVE": ["CVE-2009-3898"], "summary": "Directory traversal vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3898"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3898"
+          ],
+          "summary": "Directory traversal vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3898"
+        ]
       },
       {
         "atOrAbove": "0.1.0",
         "below": "0.5.38",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-2629"], "summary": "Buffer underflow vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-2629"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-2629"
+          ],
+          "summary": "Buffer underflow vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-2629"
+        ]
       },
       {
         "atOrAbove": "0.6.0",
         "below": "0.6.39",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-2629"], "summary": "Buffer underflow vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-2629"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-2629"
+          ],
+          "summary": "Buffer underflow vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-2629"
+        ]
       },
       {
         "atOrAbove": "0.7.0",
         "below": "0.7.62",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-2629"], "summary": "Buffer underflow vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-2629"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-2629"
+          ],
+          "summary": "Buffer underflow vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-2629"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.15",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-2629"], "summary": "Buffer underflow vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-2629"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-2629"
+          ],
+          "summary": "Buffer underflow vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-2629"
+        ]
       },
       {
         "atOrAbove": "0.1.0",
         "below": "0.5.38",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-3896"], "summary": "Null pointer dereference vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3896"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3896"
+          ],
+          "summary": "Null pointer dereference vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3896"
+        ]
       },
       {
         "atOrAbove": "0.6.0",
         "below": "0.6.39",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-3896"], "summary": "Null pointer dereference vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3896"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3896"
+          ],
+          "summary": "Null pointer dereference vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3896"
+        ]
       },
       {
         "atOrAbove": "0.7.0",
         "below": "0.7.62",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-3896"], "summary": "Null pointer dereference vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3896"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3896"
+          ],
+          "summary": "Null pointer dereference vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3896"
+        ]
       },
       {
         "atOrAbove": "0.8.0",
         "below": "0.8.14",
         "severity": "high",
-        "identifiers": { "CVE": ["CVE-2009-3896"], "summary": "Null pointer dereference vulnerability" },
-        "info": ["https://nvd.nist.gov/vuln/detail/CVE-2009-3896"]
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3896"
+          ],
+          "summary": "Null pointer dereference vulnerability"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3896"
+        ]
       }
     ],
     "extractors": {
-      "headers": ["(?i)Server:\\s*nginx/([0-9][0-9.]+)"]
+      "headers": [
+        "(?i)Server:\\s*nginx/([0-9][0-9.]+)"
+      ]
+    }
+  },
+  "apache": {
+    "vulnerabilities": [
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-29167"
+          ],
+          "summary": "mod_ldap per-dir use-after-free"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-29167"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-29170"
+          ],
+          "summary": "mod_proxy_ftp XSS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-29170"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-34355"
+          ],
+          "summary": "mod_proxy_html buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-34355"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-34356"
+          ],
+          "summary": "ProxyPassReverseCookieMap buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-34356"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-42535"
+          ],
+          "summary": "mod_dav_fs protected directory access"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-42535"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-42536"
+          ],
+          "summary": "mod_xml2enc heap overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-42536"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-43951"
+          ],
+          "summary": "OOB read in merge_response_headers"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-43951"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-44119"
+          ],
+          "summary": "Privilege escalation through expressions in .htaccess"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-44119"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-44185"
+          ],
+          "summary": "Stack buffer over-read in mod_ssl OCSP send_request"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-44185"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-44186"
+          ],
+          "summary": "Loop in proxy_ftp_handler in mod_proxy_ftp"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-44186"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-44631"
+          ],
+          "summary": "Heap underflow in ap_regname via signed char overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-44631"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.55",
+        "below": "2.4.68",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-48913"
+          ],
+          "summary": "mod_http2 memory corruption when file handles are exhausted"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-48913"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.68",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-49975"
+          ],
+          "summary": "mod_http2 denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-49975"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.66",
+        "below": "2.4.67",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-23918"
+          ],
+          "summary": "HTTP/2 double free and possible RCE on early reset"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-23918"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-24072"
+          ],
+          "summary": "mod_rewrite elevation of privileges via ap_expr"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-24072"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-28780"
+          ],
+          "summary": "Buffer overflow in mod_proxy_ajp"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-28780"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.30",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-29168"
+          ],
+          "summary": "mod_md unrestricted OCSP response"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-29168"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-29169"
+          ],
+          "summary": "mod_dav_lock indirect lock crash"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-29169"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-33006"
+          ],
+          "summary": "mod_auth_digest timing attack"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-33006"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-33007"
+          ],
+          "summary": "mod_authn_socache crash"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-33007"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-33523"
+          ],
+          "summary": "HTTP response splitting by forwarding malicious status line"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-33523"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-33857"
+          ],
+          "summary": "Off-by-one OOB reads in AJP getter functions"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-33857"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-34032"
+          ],
+          "summary": "mod_proxy_ajp heap buffer over-read"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-34032"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.67",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-34059"
+          ],
+          "summary": "mod_proxy_ajp heap over-read and memory disclosure"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-34059"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.30",
+        "below": "2.4.66",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-55753"
+          ],
+          "summary": "mod_md (ACME) unintended retry intervals"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-55753"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.66",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-58098"
+          ],
+          "summary": "SSI adds query string to #exec cmd output"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-58098"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.66",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-59775"
+          ],
+          "summary": "NTLM leakage on Windows through UNC SSRF"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-59775"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.66",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-65082"
+          ],
+          "summary": "CGI environment variable override"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-65082"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.7",
+        "below": "2.4.66",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-66200"
+          ],
+          "summary": "mod_userdir+suexec bypass via AllowOverride FileInfo"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-66200"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.64",
+        "below": "2.4.65",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-54090"
+          ],
+          "summary": "RewriteCond expr always evaluates to true"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-54090"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.64",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-42516"
+          ],
+          "summary": "HTTP response splitting"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-42516"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.64",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-43204"
+          ],
+          "summary": "SSRF with mod_headers setting Content-Type header"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-43204"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.64",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-43394"
+          ],
+          "summary": "SSRF on Windows due to UNC paths"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-43394"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.64",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-47252"
+          ],
+          "summary": "mod_ssl error log variable escaping issue"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-47252"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.35",
+        "below": "2.4.64",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-23048"
+          ],
+          "summary": "mod_ssl access control bypass with session resumption"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-23048"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.26",
+        "below": "2.4.64",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-49630"
+          ],
+          "summary": "mod_proxy_http2 denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-49630"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.64",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-49812"
+          ],
+          "summary": "mod_ssl TLS upgrade attack"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-49812"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.64",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-53020"
+          ],
+          "summary": "HTTP/2 denial of service by memory increase"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2025-53020"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.60",
+        "below": "2.4.62",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-40725"
+          ],
+          "summary": "Source code disclosure with handlers configured via AddType"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-40725"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.62",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-40898"
+          ],
+          "summary": "SSRF with mod_rewrite in server/vhost context on Windows"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-40898"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.60",
+        "below": "2.4.61",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-39884"
+          ],
+          "summary": "Source code disclosure with handlers configured via AddType"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-39884"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.55",
+        "below": "2.4.60",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-36387"
+          ],
+          "summary": "DoS by null pointer dereference in websocket over HTTP/2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-36387"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-38472"
+          ],
+          "summary": "UNC SSRF on Windows"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-38472"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-38473"
+          ],
+          "summary": "Proxy encoding problem"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-38473"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-38474"
+          ],
+          "summary": "Encoded question marks in backreferences bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-38474"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-38475"
+          ],
+          "summary": "mod_rewrite first segment matches filesystem path weakness"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-38475"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-38476"
+          ],
+          "summary": "Backend output used to run local handlers via internal redirect"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-38476"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-38477"
+          ],
+          "summary": "Crash via malicious request in mod_proxy"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-38477"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.60",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-39573"
+          ],
+          "summary": "mod_rewrite proxy handler substitution weakness"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-39573"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.59",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2023-38709"
+          ],
+          "summary": "HTTP response splitting via faulty input validation"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2023-38709"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.59",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-24795"
+          ],
+          "summary": "HTTP response splitting in multiple modules"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-24795"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.59",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2024-27316"
+          ],
+          "summary": "HTTP/2 DoS by memory exhaustion on CONTINUATION frames"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2024-27316"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.58",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2023-31122"
+          ],
+          "summary": "mod_macro buffer over-read"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2023-31122"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.55",
+        "below": "2.4.58",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2023-43622"
+          ],
+          "summary": "DoS in HTTP/2 with initial window size 0"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2023-43622"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.58",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2023-45802"
+          ],
+          "summary": "HTTP/2 stream memory not reclaimed on RST"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2023-45802"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.56",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2023-25690"
+          ],
+          "summary": "HTTP request splitting with mod_rewrite and mod_proxy"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2023-25690"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.30",
+        "below": "2.4.56",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2023-27522"
+          ],
+          "summary": "mod_proxy_uwsgi HTTP response splitting"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2023-27522"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.55",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2006-20001"
+          ],
+          "summary": "mod_dav out of bounds read or write of zero byte"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2006-20001"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.55",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-36760"
+          ],
+          "summary": "mod_proxy_ajp possible request smuggling"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-36760"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.55",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-37436"
+          ],
+          "summary": "mod_proxy HTTP response splitting"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-37436"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-26377"
+          ],
+          "summary": "mod_proxy_ajp possible request smuggling"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-26377"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-28330"
+          ],
+          "summary": "Read beyond bounds in mod_isapi"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-28330"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-28614"
+          ],
+          "summary": "Read beyond bounds via ap_rwrite()"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-28614"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-28615"
+          ],
+          "summary": "Read beyond bounds in ap_strcmp_match()"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-28615"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-29404"
+          ],
+          "summary": "Denial of service in mod_lua r:parsebody"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-29404"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.53",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-30522"
+          ],
+          "summary": "mod_sed denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-30522"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-30556"
+          ],
+          "summary": "Information disclosure in mod_lua with websockets"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-30556"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.54",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-31813"
+          ],
+          "summary": "mod_proxy X-Forwarded-For dropped by hop-by-hop mechanism"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-31813"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.53",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-22719"
+          ],
+          "summary": "mod_lua use of uninitialized value in r:parsebody"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-22719"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.53",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-22720"
+          ],
+          "summary": "HTTP request smuggling"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-22720"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.53",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-22721"
+          ],
+          "summary": "Possible buffer overflow with very large LimitXMLRequestBody"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-22721"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.53",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2022-23943"
+          ],
+          "summary": "mod_sed read/write beyond bounds"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2022-23943"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.7",
+        "below": "2.4.52",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-44224"
+          ],
+          "summary": "NULL dereference or SSRF in forward proxy"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-44224"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.52",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-44790"
+          ],
+          "summary": "Buffer overflow in mod_lua multipart content"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-44790"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.49",
+        "below": "2.4.51",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-42013"
+          ],
+          "summary": "Path traversal and RCE (incomplete fix of CVE-2021-41773)"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-42013"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.49",
+        "below": "2.4.50",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-41524"
+          ],
+          "summary": "Null pointer dereference in h2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-41524"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.49",
+        "below": "2.4.50",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-41773"
+          ],
+          "summary": "Path traversal and file disclosure"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-41773"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.49",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-33193"
+          ],
+          "summary": "Request splitting via HTTP/2 method injection and mod_proxy"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-33193"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.49",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-34798"
+          ],
+          "summary": "NULL pointer dereference in httpd core"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-34798"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.30",
+        "below": "2.4.49",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-36160"
+          ],
+          "summary": "mod_proxy_uwsgi out of bound read"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-36160"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.49",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-39275"
+          ],
+          "summary": "ap_escape_quotes buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-39275"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.49",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-40438"
+          ],
+          "summary": "mod_proxy SSRF"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-40438"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.6",
+        "below": "2.4.47",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-17567"
+          ],
+          "summary": "mod_proxy_wstunnel tunneling of non-upgraded connections"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-17567"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.47",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-13938"
+          ],
+          "summary": "Improper handling of insufficient privileges"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-13938"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.41",
+        "below": "2.4.47",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-13950"
+          ],
+          "summary": "mod_proxy_http NULL pointer dereference"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-13950"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.47",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-35452"
+          ],
+          "summary": "mod_auth_digest stack overflow by one null byte"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-35452"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.47",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-26690"
+          ],
+          "summary": "mod_session NULL pointer dereference"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-26690"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.47",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-26691"
+          ],
+          "summary": "mod_session response handling heap overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-26691"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.39",
+        "below": "2.4.47",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-30641"
+          ],
+          "summary": "Unexpected URL matching with MergeSlashes OFF"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-30641"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.47",
+        "below": "2.4.48",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-31618"
+          ],
+          "summary": "NULL pointer dereference on crafted HTTP/2 request"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2021-31618"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.20",
+        "below": "2.4.44",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-9490"
+          ],
+          "summary": "Push diary crash on crafted HTTP/2 header"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-9490"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.33",
+        "below": "2.4.44",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-11984"
+          ],
+          "summary": "mod_proxy_uwsgi buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-11984"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.20",
+        "below": "2.4.44",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-11993"
+          ],
+          "summary": "HTTP/2 logging on incorrect connection causes crash"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-11993"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.42",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-1927"
+          ],
+          "summary": "mod_rewrite open redirect"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-1927"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.42",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2020-1934"
+          ],
+          "summary": "mod_proxy_ftp use of uninitialized value"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2020-1934"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.20",
+        "below": "2.4.40",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-9517"
+          ],
+          "summary": "mod_http2 DoS by exhausting h2 workers"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-9517"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.20",
+        "below": "2.4.40",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10081"
+          ],
+          "summary": "mod_http2 memory corruption on early pushes"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-10081"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.18",
+        "below": "2.4.40",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10082"
+          ],
+          "summary": "mod_http2 read-after-free in h2 connection shutdown"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-10082"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.40",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10092"
+          ],
+          "summary": "XSS in mod_proxy error page"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-10092"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.33",
+        "below": "2.4.39",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10097"
+          ],
+          "summary": "mod_remoteip stack buffer overflow and NULL pointer dereference"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-10097"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.40",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-10098"
+          ],
+          "summary": "mod_rewrite potential open redirect"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-10098"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.39",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0196"
+          ],
+          "summary": "mod_http2 read-after-free on string compare"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0196"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.34",
+        "below": "2.4.39",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0197"
+          ],
+          "summary": "mod_http2 possible crash on late upgrade"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0197"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.39",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0211"
+          ],
+          "summary": "Privilege escalation from modules scripts"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0211"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.37",
+        "below": "2.4.39",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0215"
+          ],
+          "summary": "mod_ssl access control bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0215"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.39",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0217"
+          ],
+          "summary": "mod_auth_digest access control bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0217"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.39",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0220"
+          ],
+          "summary": "URL normalization inconsistency"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0220"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.38",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-17189"
+          ],
+          "summary": "DoS for HTTP/2 via slow request bodies"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-17189"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.0",
+        "below": "2.4.38",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-17199"
+          ],
+          "summary": "mod_session_cookie does not respect expiry time"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-17199"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.37",
+        "below": "2.4.38",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2019-0190"
+          ],
+          "summary": "mod_ssl remote DoS with OpenSSL 1.1.1"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2019-0190"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.18",
+        "below": "2.4.35",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-11763"
+          ],
+          "summary": "DoS for HTTP/2 via continuous SETTINGS frames"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-11763"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.18",
+        "below": "2.4.34",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1333"
+          ],
+          "summary": "DoS for HTTP/2 via crafted requests"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-1333"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.33",
+        "below": "2.4.34",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-8011"
+          ],
+          "summary": "mod_md DoS via coredumps on crafted requests"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-8011"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-15710"
+          ],
+          "summary": "Out of bound write in mod_authnz_ldap"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-15710"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-15715"
+          ],
+          "summary": "FilesMatch bypass with trailing newline in filename"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-15715"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.30",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1283"
+          ],
+          "summary": "Tampering of mod_session data for CGI"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-1283"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1301"
+          ],
+          "summary": "Possible out of bound access after failed HTTP request read"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-1301"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1302"
+          ],
+          "summary": "Possible write after free on HTTP/2 stream shutdown"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-1302"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.6",
+        "below": "2.4.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1303"
+          ],
+          "summary": "Possible out of bound read in mod_cache_socache"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-1303"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2018-1312"
+          ],
+          "summary": "Weak digest auth nonce generation in mod_auth_digest"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2018-1312"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.28",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-9798"
+          ],
+          "summary": "Use-after-free with Limit and unrecognized method in .htaccess (OptionsBleed)"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-9798"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.27",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-9788"
+          ],
+          "summary": "Uninitialized memory reflection in mod_auth_digest"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-9788"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.26",
+        "below": "2.4.27",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-9789"
+          ],
+          "summary": "Read after free in mod_http2"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-9789"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.26",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-3167"
+          ],
+          "summary": "ap_get_basic_auth_pw() authentication bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-3167"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.26",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-3169"
+          ],
+          "summary": "mod_ssl null pointer dereference"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-3169"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.25",
+        "below": "2.4.26",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7659"
+          ],
+          "summary": "mod_http2 null pointer dereference"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7659"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.25",
+        "below": "2.4.26",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7668"
+          ],
+          "summary": "ap_find_token() buffer overread"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7668"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.26",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7679"
+          ],
+          "summary": "mod_mime buffer overread"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7679"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.24",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-0736"
+          ],
+          "summary": "Padding oracle in mod_session_crypto"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-0736"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.24",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-2161"
+          ],
+          "summary": "DoS in mod_auth_digest"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-2161"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.24",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-4975"
+          ],
+          "summary": "mod_userdir CRLF injection"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-4975"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.17",
+        "below": "2.4.24",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-8740"
+          ],
+          "summary": "HTTP/2 CONTINUATION denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-8740"
+        ]
+      },
+      {
+        "atOrAbove": "2.4.1",
+        "below": "2.4.24",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-8743"
+          ],
+          "summary": "HTTP request parsing whitespace defects"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-8743"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.35",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-9798"
+          ],
+          "summary": "Use-after-free with Limit and unrecognized method in .htaccess (OptionsBleed)"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-9798"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.33",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-3167"
+          ],
+          "summary": "ap_get_basic_auth_pw() authentication bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-3167"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.33",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-3169"
+          ],
+          "summary": "mod_ssl null pointer dereference"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-3169"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.32",
+        "below": "2.2.33",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7668"
+          ],
+          "summary": "ap_find_token() buffer overread"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7668"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.33",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-7679"
+          ],
+          "summary": "mod_mime buffer overread"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-7679"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.33",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2017-9788"
+          ],
+          "summary": "Uninitialized memory reflection in mod_auth_digest"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2017-9788"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.32",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-4975"
+          ],
+          "summary": "mod_userdir CRLF injection"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-4975"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.32",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2016-8743"
+          ],
+          "summary": "HTTP request parsing whitespace defects"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2016-8743"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.30",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2015-3183"
+          ],
+          "summary": "HTTP request smuggling via chunked request parser"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2015-3183"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.28",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-5704"
+          ],
+          "summary": "HTTP trailers processing bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-5704"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.28",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0118"
+          ],
+          "summary": "mod_deflate denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0118"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.28",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0226"
+          ],
+          "summary": "mod_status buffer overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0226"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.28",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0231"
+          ],
+          "summary": "mod_cgid denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0231"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.27",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-6438"
+          ],
+          "summary": "mod_dav crash"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-6438"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.27",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2014-0098"
+          ],
+          "summary": "mod_log_config crash"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2014-0098"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.24",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-1862"
+          ],
+          "summary": "mod_rewrite log escape filtering"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-1862"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.24",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2013-1896"
+          ],
+          "summary": "mod_dav crash on MERGE request"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2013-1896"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.24",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-3499"
+          ],
+          "summary": "XSS due to unescaped hostnames"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-3499"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.24",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-4558"
+          ],
+          "summary": "XSS in mod_proxy_balancer"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-4558"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.23",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-0883"
+          ],
+          "summary": "Insecure LD_LIBRARY_PATH handling"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-0883"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.23",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-2687"
+          ],
+          "summary": "XSS in mod_negotiation with untrusted uploads"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-2687"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.22",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-3368"
+          ],
+          "summary": "mod_proxy reverse proxy exposure"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-3368"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.22",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-3607"
+          ],
+          "summary": "mod_setenvif .htaccess privilege escalation"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-3607"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.22",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-4317"
+          ],
+          "summary": "mod_proxy reverse proxy exposure"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-4317"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.17",
+        "below": "2.2.22",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-0021"
+          ],
+          "summary": "mod_log_config crash on cookie handling"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-0021"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.22",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-0031"
+          ],
+          "summary": "Scoreboard parent denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-0031"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.22",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-0053"
+          ],
+          "summary": "Error responses can expose cookies"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-0053"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.12",
+        "below": "2.2.22",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2012-4557"
+          ],
+          "summary": "mod_proxy_ajp remote denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2012-4557"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.12",
+        "below": "2.2.21",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-3348"
+          ],
+          "summary": "mod_proxy_ajp remote denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-3348"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.20",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-3192"
+          ],
+          "summary": "Range header remote denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-3192"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.19",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2011-0419"
+          ],
+          "summary": "apr_fnmatch flaw leads to mod_autoindex DoS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2011-0419"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.17",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3560"
+          ],
+          "summary": "Expat denial of service via buffer over-read"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3560"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.17",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3720"
+          ],
+          "summary": "Expat denial of service via buffer over-read"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3720"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.17",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-1623"
+          ],
+          "summary": "apr_brigade_split_line denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-1623"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.16",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-1452"
+          ],
+          "summary": "mod_cache and mod_dav denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-1452"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.9",
+        "below": "2.2.16",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-2068"
+          ],
+          "summary": "Timeout detection flaw in mod_proxy_http"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-2068"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.15",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-0408"
+          ],
+          "summary": "mod_proxy_ajp denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-0408"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.15",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-0425"
+          ],
+          "summary": "mod_isapi module unload flaw"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-0425"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.15",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-0434"
+          ],
+          "summary": "Subrequest handling of request headers in mod_headers"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-0434"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.14",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-2699"
+          ],
+          "summary": "Solaris pollset denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-2699"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.14",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3094"
+          ],
+          "summary": "mod_proxy_ftp denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3094"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.14",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-3095"
+          ],
+          "summary": "mod_proxy_ftp FTP command injection"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-3095"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.13",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-2412"
+          ],
+          "summary": "APR apr_palloc heap overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-2412"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2008-0456"
+          ],
+          "summary": "CRLF injection in mod_negotiation"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2008-0456"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-0023"
+          ],
+          "summary": "APR-util heap underwrite"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-0023"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.11",
+        "below": "2.2.12",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-1191"
+          ],
+          "summary": "mod_proxy_ajp information disclosure"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-1191"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-1195"
+          ],
+          "summary": "AllowOverride Options handling bypass"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-1195"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-1890"
+          ],
+          "summary": "mod_proxy reverse proxy denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-1890"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-1891"
+          ],
+          "summary": "mod_deflate denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-1891"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-1955"
+          ],
+          "summary": "APR-util XML denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-1955"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.12",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2009-1956"
+          ],
+          "summary": "APR-util off-by-one overflow"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2009-1956"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.10",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2008-2939"
+          ],
+          "summary": "mod_proxy_ftp globbing XSS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2008-2939"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.9",
+        "below": "2.2.10",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2010-2791"
+          ],
+          "summary": "Timeout detection flaw in mod_proxy_http"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2010-2791"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.9",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-6420"
+          ],
+          "summary": "mod_proxy_balancer CSRF"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-6420"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.9",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2008-2364"
+          ],
+          "summary": "mod_proxy_http denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2008-2364"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.7",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-5000"
+          ],
+          "summary": "mod_imagemap XSS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-5000"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.7",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-6388"
+          ],
+          "summary": "mod_status XSS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-6388"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.7",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-6421"
+          ],
+          "summary": "mod_proxy_balancer XSS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-6421"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.7",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-6422"
+          ],
+          "summary": "mod_proxy_balancer denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-6422"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.7",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2008-0005"
+          ],
+          "summary": "mod_proxy_ftp UTF-7 XSS"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2008-0005"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.5",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2006-5752"
+          ],
+          "summary": "mod_status cross-site scripting"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2006-5752"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.4",
+        "below": "2.2.5",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-1862"
+          ],
+          "summary": "mod_cache information leak"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-1862"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.5",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-1863"
+          ],
+          "summary": "mod_cache proxy denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-1863"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.5",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-3304"
+          ],
+          "summary": "Signals to arbitrary processes"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-3304"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.5",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2007-3847"
+          ],
+          "summary": "mod_proxy crash"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2007-3847"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.3",
+        "severity": "high",
+        "identifiers": {
+          "CVE": [
+            "CVE-2006-3747"
+          ],
+          "summary": "mod_rewrite off-by-one error"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2006-3747"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.1",
+        "severity": "medium",
+        "identifiers": {
+          "CVE": [
+            "CVE-2005-3352"
+          ],
+          "summary": "mod_imap Referer cross-site scripting"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2005-3352"
+        ]
+      },
+      {
+        "atOrAbove": "2.2.0",
+        "below": "2.2.1",
+        "severity": "low",
+        "identifiers": {
+          "CVE": [
+            "CVE-2005-3357"
+          ],
+          "summary": "mod_ssl access control denial of service"
+        },
+        "info": [
+          "https://nvd.nist.gov/vuln/detail/CVE-2005-3357"
+        ]
+      }
+    ],
+    "extractors": {
+      "headers": [
+        "(?i)Server:\\s*Apache/([0-9][0-9.]+)"
+      ]
     }
   }
 }
