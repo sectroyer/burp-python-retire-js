@@ -27,8 +27,8 @@ except ImportError:
 # ---------------------------------------------------------------------------
 
 REPO_URL = (
-    "https://raw.githubusercontent.com/Retirejs/retire.js"
-    "/master/repository/jsrepository.json"
+    "https://raw.githubusercontent.com/sectroyer/burp-python-retire-js"
+    "/main/jsrepository.json"
 )
 CACHE_DIR = os.path.join(os.path.expanduser("~"), ".retirejs")
 CACHE_FILE = os.path.join(CACHE_DIR, "jsrepository.json")
