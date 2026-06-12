@@ -10,7 +10,7 @@ Retire.js database:
   https://github.com/RetireJS/retire.js
 """
 
-from burp import IBurpExtender, IScannerCheck, IScanIssue
+from burp import IBurpExtender, IScannerCheck, IScanIssue, IProxyListener
 
 import hashlib
 import json
@@ -519,7 +519,7 @@ def _build_detail(lib_name, version, vuln):
 # Burp extension entry point  (mirrors BurpExtender.java)
 # ---------------------------------------------------------------------------
 
-class BurpExtender(IBurpExtender, IScannerCheck):
+class BurpExtender(IBurpExtender, IScannerCheck, IProxyListener):
 
     def registerExtenderCallbacks(self, callbacks):
         self._callbacks = callbacks
@@ -541,7 +541,7 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         _print("  Database: " + REPO_URL)
 
         self._scanner = None
-        self._scan_count = 0
+        self._reported = set()  # (host, path, lib_name) — dedup for proxy-triggered issues
         try:
             repo = DatabaseLoader().load(log=_print)
             self._scanner = Scanner(repo)
@@ -549,14 +549,52 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         except Exception as e:
             _print("ERROR: Could not load database: {}".format(str(e)))
 
-        _print("Custom DB path: {} (exists: {})".format(CUSTOM_DB, os.path.exists(CUSTOM_DB)))
+        callbacks.registerProxyListener(self)
         callbacks.registerScannerCheck(self)
         _print("Retire.js loaded.")
+
+    # ------------------------------------------------------------------
+    # IProxyListener — fires on every proxied response automatically
+    # ------------------------------------------------------------------
+
+    def processProxyMessage(self, messageIsRequest, message):
+        if messageIsRequest or self._scanner is None:
+            return
+        try:
+            http_msg = message.getMessageInfo()
+            issues = self._run_passive_checks(http_msg)
+            for issue in issues:
+                host = str(http_msg.getHttpService().getHost())
+                key = (host, issue._path, issue._lib_name)
+                if key not in self._reported:
+                    self._reported.add(key)
+                    self._callbacks.addScanIssue(issue)
+        except Exception as e:
+            self._print("ERROR in proxy listener: {}".format(str(e)))
+
+    # ------------------------------------------------------------------
+    # IScannerCheck — fires during explicit passive scans
+    # ------------------------------------------------------------------
 
     def doPassiveScan(self, base_rr):
         if self._scanner is None:
             return []
+        return self._run_passive_checks(base_rr)
 
+    def doActiveScan(self, base_rr, insertion_point):
+        return []
+
+    def consolidateDuplicateIssues(self, existing, new):
+        if (isinstance(existing, VulnerableLibraryIssue)
+                and isinstance(new, VulnerableLibraryIssue)):
+            return -1 if existing.same_as(new) else 0
+        return 0
+
+    # ------------------------------------------------------------------
+    # Core scan logic shared by both entry points
+    # ------------------------------------------------------------------
+
+    def _run_passive_checks(self, base_rr):
         resp_bytes = base_rr.getResponse()
         if not resp_bytes:
             return []
@@ -569,10 +607,6 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         path = _get_path(req_info)
         content_type = _get_content_type(resp_info)
         offset = resp_info.getBodyOffset()
-
-        self._scan_count += 1
-        if self._scan_count == 1:
-            self._print("doPassiveScan active — first call: {}".format(path))
 
         all_headers = [str(h) for h in resp_info.getHeaders()]
         for h in all_headers:
@@ -603,15 +637,6 @@ class BurpExtender(IBurpExtender, IScannerCheck):
             self._print("ERROR scanning {}: {}".format(path, str(e)))
 
         return issues
-
-    def doActiveScan(self, base_rr, insertion_point):
-        return []
-
-    def consolidateDuplicateIssues(self, existing, new):
-        if (isinstance(existing, VulnerableLibraryIssue)
-                and isinstance(new, VulnerableLibraryIssue)):
-            return -1 if existing.same_as(new) else 0
-        return -1
 
     # ------------------------------------------------------------------
 
