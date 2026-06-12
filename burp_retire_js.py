@@ -164,12 +164,13 @@ class JsLibrary(object):
 
 
 class JsLibraryResult(object):
-    def __init__(self, library, vuln, version, regex_request=None, regex_response=None):
+    def __init__(self, library, vuln, version, regex_request=None, regex_response=None, via_header=False):
         self.library = library
         self.vuln = vuln
         self.version = version
         self.regex_request = regex_request
         self.regex_response = regex_response
+        self.via_header = via_header
 
 
 # ---------------------------------------------------------------------------
@@ -229,20 +230,20 @@ class VulnerabilitiesRepository(object):
                 for header in headers:
                     version = _simple_match(pattern, header)
                     if version is not None:
-                        self._collect_vulnerable(lib, version, results, pattern, None)
+                        self._collect_vulnerable(lib, version, results, pattern, None, via_header=True)
                         break
                 else:
                     continue
                 break
         return results
 
-    def _collect_vulnerable(self, lib, version, results, regex_req, regex_resp):
+    def _collect_vulnerable(self, lib, version, results, regex_req, regex_resp, via_header=False):
         for vuln in lib.vulnerabilities:
             if not vuln.below:
                 continue
             if _is_under(version, vuln.below):
                 if vuln.at_or_above is None or _at_or_above(version, vuln.at_or_above):
-                    results.append(JsLibraryResult(lib, vuln, version, regex_req, regex_resp))
+                    results.append(JsLibraryResult(lib, vuln, version, regex_req, regex_resp, via_header=via_header))
 
 
 class DatabaseLoader(object):
@@ -426,7 +427,10 @@ class VulnerableLibraryIssue(IScanIssue):
         lib = lib_result.library
         vuln = lib_result.vuln
         self._lib_name = lib.name
-        self._name = "Vulnerable JavaScript library: {}".format(lib.name)
+        if lib_result.via_header:
+            self._name = "Vulnerable software: {}".format(lib.name)
+        else:
+            self._name = "Vulnerable JavaScript library: {}".format(lib.name)
         self._severity = _map_severity(vuln.severity)
         self._detail = _build_detail(lib.name, lib_result.version, vuln)
 
