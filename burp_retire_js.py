@@ -541,6 +541,7 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         _print("  Database: " + REPO_URL)
 
         self._scanner = None
+        self._scan_count = 0
         try:
             repo = DatabaseLoader().load(log=_print)
             self._scanner = Scanner(repo)
@@ -548,6 +549,7 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         except Exception as e:
             _print("ERROR: Could not load database: {}".format(str(e)))
 
+        _print("Custom DB path: {} (exists: {})".format(CUSTOM_DB, os.path.exists(CUSTOM_DB)))
         callbacks.registerScannerCheck(self)
         _print("Retire.js loaded.")
 
@@ -568,11 +570,23 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         content_type = _get_content_type(resp_info)
         offset = resp_info.getBodyOffset()
 
+        self._scan_count += 1
+        if self._scan_count == 1:
+            self._print("doPassiveScan active — first call: {}".format(path))
+
+        all_headers = [str(h) for h in resp_info.getHeaders()]
+        for h in all_headers:
+            if h.lower().startswith('server:'):
+                self._print("Server header on {}: {}".format(path, h))
+                break
+
         issues = []
 
         # Header-based detection runs on every response
         try:
-            header_results = self._scanner.scan_headers([str(h) for h in resp_info.getHeaders()])
+            header_results = self._scanner.scan_headers(all_headers)
+            if header_results:
+                self._print("Header hit: {} result(s) on {}".format(len(header_results), path))
             issues.extend(self._build_issues(header_results, base_rr, req_info, path))
         except Exception as e:
             self._print("ERROR in header scan for {}: {}".format(path, str(e)))
