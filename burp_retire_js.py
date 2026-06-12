@@ -572,7 +572,7 @@ class BurpExtender(IBurpExtender, IScannerCheck):
 
         # Header-based detection runs on every response
         try:
-            header_results = self._scanner.scan_headers(list(resp_info.getHeaders()))
+            header_results = self._scanner.scan_headers([str(h) for h in resp_info.getHeaders()])
             issues.extend(self._build_issues(header_results, base_rr, req_info, path))
         except Exception as e:
             self._print("ERROR in header scan for {}: {}".format(path, str(e)))
