@@ -524,7 +524,7 @@ class BurpExtender(IBurpExtender, IScannerCheck, IProxyListener):
     def registerExtenderCallbacks(self, callbacks):
         self._callbacks = callbacks
         self._helpers = callbacks.getHelpers()
-        callbacks.setExtensionName("Retire.js")
+        callbacks.setExtensionName("Python Retire.js")
 
         stdout = callbacks.getStdout()
 
